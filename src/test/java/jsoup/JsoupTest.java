@@ -1,7 +1,10 @@
 package jsoup;
 
-public class JsoupTest {
-    public void test(){
+import org.junit.Test;
 
+public class JsoupTest {
+    @Test
+    public void test(){
+        System.out.println("test1");
     }
 }
